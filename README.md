@@ -4,4 +4,4 @@ A growing collection of responsive cards that you can use or copy-paste in your 
 # Demo Preview
 Responsive Bulma card hosted in netlify. Please have a look.
 
-[Preview](https://responsive-bulma-cards.netlify.app/)
+[Preview](https://responsive-bulma-cards.netlify.app/){:target="_blank"}
