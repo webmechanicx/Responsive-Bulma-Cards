@@ -14,4 +14,4 @@ git clone https://github.com/webmechanicx/Responsive-Bulma-Cards.git
 cd this_directory
 ```
 
-### Enjoy your coding!
+### Enjoy your coding! 👍
