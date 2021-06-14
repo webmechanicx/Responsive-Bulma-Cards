@@ -1,0 +1,69 @@
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.is-horizontal {
+  display: flex;
+  flex-basis: 50ex;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.is-horizontal .card-image {
+  flex: 1.25;
+  flex-shrink: 1;
+}
+
+.is-horizontal .card-image .image {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.is-horizontal .card-image .image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.is-horizontal .card-content {
+  flex: 3;
+}
+
+.is-horizontal .card-content .content {
+  flex: 1;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.is-cursor-pointer {
+  cursor: pointer !important;
+}
+
+.transform {
+  -webkit-transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.is-duration-300 {
+  transition-duration: 0.3s;
+}
+
+@media (min-width: 768px) {
+  .is-horizontal .card-image .image img {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .is-horizontal {
+    flex-direction: column;
+  }
+}

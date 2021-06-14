@@ -1,0 +1,31 @@
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.is-img-center {
+  margin: 0 auto;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem !important;
+}
+
+.is-cursor-pointer {
+  cursor: pointer !important;
+}
+
+.transform {
+  -webkit-transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.is-duration-300 {
+  transition-duration: 0.3s;
+}
+
+.hover-translate-y:hover {
+  -webkit-transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+  transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+}

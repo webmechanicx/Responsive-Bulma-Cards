@@ -1,0 +1,78 @@
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pt-24 {
+  padding-top: 24rem !important;
+}
+
+.is-bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.has-no-rounded {
+  border-radius: 0px !important;
+}
+
+.is-cursor-pointer {
+  cursor: pointer !important;
+}
+
+.transform {
+  -webkit-transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.is-duration-300 {
+  transition-duration: 0.3s;
+}
+
+.is-bg-cover .card-content {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.is-bg-cover:hover .card-content {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.title-transform-y {
+  -webkit-transform: translateX(0) translateY(5rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transform: translateX(0) translateY(5rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.underline-br {
+  width: 5rem;
+  height: 0.5rem;
+  background-color: yellow;
+}
+
+.text-motion {
+  opacity: 0;
+}
+
+.is-bg-cover:hover .card-content .text-motion {
+  opacity: 1;
+}
+
+.is-bg-cover:hover .title-transform-y {
+  -webkit-transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.is-bg-zoom:hover {
+  background-size: 150%;
+}
+
+.hover-translate-y:hover {
+  -webkit-transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+  transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+}
+
+.is-bg-zoom {
+  background-position: center;
+  background-size: 125%;
+  transition: all 0.3s ease-in-out;
+}

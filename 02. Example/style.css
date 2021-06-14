@@ -1,0 +1,22 @@
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.is-tr-1 {
+  top: 1rem;
+  right: 1rem;
+}
+
+.is-rounded {
+  border-radius: 0.375rem;
+}
+
+.is-absolute {
+  position: absolute;
+}

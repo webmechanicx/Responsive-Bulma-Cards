@@ -1,0 +1,95 @@
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cover-image-rounded {
+  max-height: 258px;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.cover-image-rounded img {
+  opacity: 0.9;
+}
+
+.meta-panel {
+  width: 100%;
+  bottom: 10px;
+}
+
+.meta-panel div {
+  flex: 1;
+}
+
+.is-overflow-hidden {
+  overflow: hidden !important;
+}
+
+.rounded-b-2xl {
+  border-radius: 1rem;
+}
+
+.is-size-8 {
+  font-size: 0.85rem;
+}
+
+.meta-content {
+  width: 100%;
+}
+
+.meta-content .meta-item {
+  flex: 1;
+}
+
+.meta-content .meta-item img {
+  margin: auto;
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+.w-6 {
+  width: 1.5rem !important;
+}
+
+.is-40x40 {
+  width: 40px;
+  height: 40px;
+}
+
+.is-circle {
+  border-radius: 50%;
+}
+
+.is-rounded {
+  border-radius: 0.375rem;
+}
+
+.rounded-b-2xl {
+  border-radius: 1rem;
+}
+
+.is-cursor-pointer {
+  cursor: pointer !important;
+}
+
+.transform {
+  -webkit-transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.is-duration-300 {
+  transition-duration: 0.3s;
+}
+
+.hover-translate-y:hover {
+  -webkit-transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+  transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+}
+
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
