@@ -8,8 +8,10 @@ Responsive Bulma card hosted in netlify. Please have a look.
 
 <a href="https://responsive-bulma-cards.netlify.app/" target="_blank">Preview</a>
 
-### start
+### Get started
 ```sh
 git clone https://github.com/webmechanicx/Responsive-Bulma-Cards.git
 cd this_directory
 ```
+
+### Enjoy your coding!
